@@ -5,11 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator Project</title>
     <link rel="stylesheet" href="calcstyle.css">
-    <script src="calcBack.js"></script>
 </head>
 <body>
     <div class="mainLayout">
-        <div class="calcu">
+        <div class="calculatorLayout">
             <div class="display">
                 <input type="text" id="display">
             </div>
@@ -38,14 +37,12 @@
                     <button onclick="buttonClick('+')" class="btn">+</button>
                     <button onclick="sumResult()" class="btn">=</button>
                 </div>
-                <div class="rowsums">
-                    <button onclick="sumResult()" class="rowsum">=</button>
-                    <button onclick="clearDisplay()" class="rowsum1">CLEAR</button>
+                <div class="rows">
+                    <button onclick="clearDisplay()" class="rowSum">CLEAR</button>
                 </div>
-                
             </div>
         </div>
     </div>
-
+    <script src="calcBack.js"></script>
 </body>
 </html>

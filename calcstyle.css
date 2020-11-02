@@ -3,7 +3,7 @@
     height: 70%;
 }
 
-.calcu{
+.calculatorLayout{
 margin-top: 30px;
     margin-left: 450px;
     width: 470px;
@@ -33,15 +33,9 @@ margin-top: 30px;
 
 }
 
-.rowsum{
-    margin-left: 44px;
+.rowSum{
+    margin-top: 25px;
+    margin-left: 159px;
     height: 60px;
-    width: 255px;
-}
-
-.rowsum1{
-    margin-top: 17px;
-    margin-left: 22px;
-    height: 60px;
-    width: 105px;
+    width: 155px;
 }
